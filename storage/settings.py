@@ -239,7 +239,7 @@ CORS_ALLOW_HEADERS = [
 
 # django_heroku.settings(locals())
 
-USE_S3 = True
+USE_S3 = False
 
 if USE_S3:
     # aws settings
